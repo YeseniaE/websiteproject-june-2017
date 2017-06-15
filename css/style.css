@@ -1,0 +1,173 @@
+/*FONTS*/
+/*UNIVERSALS*/
+/* {
+    box-sizing: border-box
+}*/
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.base-color {
+    background-color: #738b42; /*olive green*/
+} 
+
+.grey-color {
+    background-color: #303130;
+    color: white;
+}
+
+
+.border-box {   /*allows the borders on a box to autosize to the specified width*/
+    box-sizing: border-box;
+}
+
+body {   /*takes off the browsers default padding and margin*/
+    margin: 0;
+    padding: 0;
+}
+
+
+/*HEADER*/
+
+
+
+.container-fluid {
+    height: 60px;
+    background-color: #303130;
+   
+}
+
+.navbar {
+    border-bottom: 5px solid #738b42; /*olive*/
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    
+}
+
+.nav-list {
+    margin: 0;
+    text-align: right;
+    height: 80px;
+}
+
+
+.listed-nav_item {
+    display: inline-block;
+    margin-top:15px;
+}
+
+.nav-list .listed-nav_item a {
+    display: block;
+    padding: 15px;
+    font-weight: 300;
+    padding-top: 15px;
+    color: white;
+}
+
+
+.logo {
+    color: white;
+    float: left;
+   
+}
+
+.hero {
+    background-image: url(../images/forest.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background: rgba (0,0,0, 0.8)
+}
+
+.hero h1 {
+    padding-top: 250px;
+}
+
+
+
+
+
+/* CIRCLE INFORMATION */
+/*container {
+    margin-top: 50px;
+    display: block;
+    height: 200px;
+}*/
+
+.circle-info h1 {
+  width: 70px;
+  height: 70px;
+  background: #66CC33;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  padding: 1.5%;
+  float: left;
+  margin: 3% 3%;
+}
+
+
+.circle-info:hover {
+  box-shadow: 3px 3px 15px;
+  color: lightblue;
+  transform: scale(1.1);
+  cursor: e-resize;
+  background: yellow;
+  transition: all 1.2s, transform 1s, box-shadow .2s, text-shadow .2s;
+  
+}
+
+
+.circle-container {
+    position: relative;
+    width: 40em;
+    height: 40em;
+    padding: 2.8em;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: Solid 1px;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+}
+
+.circle-container img {
+  display: block; width: 100%; 
+}
+
+
+.circle-container div {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -2em;
+    background-color: red;
+    border-radius: 50%
+}
+
+.deg0 {
+    
+    
+}
+
+
+
+
+/*FOOTER*/
+
+footer {
+    height: 60px;
+    clear: both;
+    padding-top: 15px;
+}
