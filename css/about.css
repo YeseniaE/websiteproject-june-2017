@@ -1,0 +1,93 @@
+.picture {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fixed-button {
+    height: 100px;
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 45%;
+}
+
+.link {
+    color: white;
+}
+
+.block-pic {
+    background-image: url(../images/bench.jpg);
+    background-size:cover;
+    height: 420px;
+    width: 700px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.video-container {
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 700px;
+    background-color: rgba(0,0,0, 0.2);
+}
+
+.video {
+    height: 500px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.pictures-column-left {
+    background-image: url(../images/sunrise.jpg);
+    width: 47%;
+    height: 500px;
+    float:left;
+    clear: left;
+    margin-top: 500px;
+    margin-left: 30px;
+}
+
+.pictures-column-right {
+    background-image: url(../images/panda.jpg);
+    background-image: cover;
+    background-size: 88.8%;
+    float: right;
+    height: 500px;
+    margin-top: 500px;
+    width: 47%;
+
+}
+
+
+.left-column {
+    height: 225px;
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+.middle-column {
+
+    height: 225px;
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+.middle-column-2 {
+   
+    height: 225px;
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+.right-column {
+  
+    height: 225px;
+    width: 25%;
+    float: left;
+    clear: right;
+    padding: 15px;
+}
